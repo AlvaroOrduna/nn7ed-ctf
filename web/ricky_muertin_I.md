@@ -194,6 +194,10 @@ Vamos, de nuevo, al código fuente de la web y decodificamos el `base64` y _et v
 
 Lo que hemos visto aquí es un tipo de vulnerabilidad llamada [`SSRF` (_Server Side Request Forgery_)](https://www.owasp.org/index.php/Server_Side_Request_Forgery), haciendo que el propio servidor que aloja la página del enunciado nos devuelva el contenido codificado en `base64` de un fichero presente en un servidor ftp local de la misma máquina.
 
+## Referencias
+
+- [SSRF injection](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SSRF%20injection/README.md)
+
 ## Agradecimientos
 
 Por ultimo, agradecer a mis amigos y compañeros [DaniLabs](https://github.com/DaniLabs) e [iechavarri](https://github.com/iechavarri) la ayuda en este, mi primer CTF :smirk:
